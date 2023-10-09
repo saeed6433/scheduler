@@ -2,12 +2,15 @@
   "name": "scheduler",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8001",
   "dependencies": {
-    "classnames": "^2.2.6",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.4.4"
+    "react-hooks-testing-library": "^0.6.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,15 +34,21 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "@storybook/addon-actions": "^5.0.10",
-    "@storybook/addon-backgrounds": "^5.0.10",
+    "@storybook/addon-actions": "^7.4.6",
+    "@storybook/addon-backgrounds": "^7.4.6",
     "@storybook/addon-links": "^5.0.10",
     "@storybook/addons": "^5.0.10",
-    "@storybook/react": "^5.0.10",
+    "@storybook/react": "^7.4.6",
     "@testing-library/jest-dom": "^4.0.0",
-    "@testing-library/react": "^8.0.7",
+    "@testing-library/react": "^8.0.9",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/storybook__addon-actions": "^5.2.1",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "8.1.0",
-    "sass": "^1.53.0"
+    "prop-types": "^15.8.1",
+    "react-test-renderer": "^16.9.0",
+    "sass": "^1.53.0",
+    "webpack-cli": "^5.1.1"
   },
   "jest": {
     "watchPathIgnorePatterns": [
